@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{11b0e5fa-c0a3-429b-96a9-70a24a40ed45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emulators">
+      <UniqueIdentifier>{39952bca-d760-443b-bac8-be42ffc96b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{521bb8a1-0223-47a4-a440-e8149e91e96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Encryption">
+      <UniqueIdentifier>{1eddc8ec-3a11-41a8-826f-50b0556264fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="L4DSpoofer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\opcode_len_calc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\RevSpoofer.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\StrUtils.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\Encryption\CRijndael.cpp">
+      <Filter>Public\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\Encryption\DoubleBuffering.cpp">
+      <Filter>Public\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\Encryption\MessageDigest.cpp">
+      <Filter>Public\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\Encryption\SHA.cpp">
+      <Filter>Public\Encryption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\FindPattern.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\XMemory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\opcode_len_calc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\AVSMP.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\OldRevEmu.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\RevEmu.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\RevEmu2013.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\SC2009.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\Setti.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\SmartSteamEmu.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulators\SteamEmu.h">
+      <Filter>Emulators</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\HTTP.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\RevSpoofer.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\StrUtils.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Encryption\CRijndael.h">
+      <Filter>Public\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Encryption\DoubleBuffering.h">
+      <Filter>Public\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Encryption\MessageDigest.h">
+      <Filter>Public\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Encryption\SHA.h">
+      <Filter>Public\Encryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
